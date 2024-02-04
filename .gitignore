@@ -1,0 +1,9 @@
+# intermediate and output files
+*.out
+*.log
+*.pdf
+*.aux
+*.bcf
+*.run.xml
+*.synctex.gz
+*.auctex-auto/

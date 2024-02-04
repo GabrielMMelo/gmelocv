@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Resume Gabriel Melo 2024 %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{gmelocv}
+
+%Layout
+\geometry{left=1cm,right=1cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+%Colors
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000e17}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%
+
+\begin{document}
+\name{Gabriel M. de Melo}
+\tagline{}
+%\photo{2.5cm}{GabrielMelo}
+\personalinfo{
+  \location{Vancouver, BC, Canada}
+  \hspace{69.5pt} \email{gabrielmelocomp@gmail.com}
+  \hspace{45pt} \phone{+1 778 680 3042}
+  
+  \linkedin{linkedin.com/in/gabrielmmelo/}
+  \hspace{37pt}\github{github.com/gabrielmmelo/}
+  %\hspace{55pt} \homepage{https://gabrielmmelo.online}
+}
+
+
+\makecvheader
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% SUMMARY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Summary}
+
+\justifying
+    Data Engineer with vast experience in gathering, cleaning, and organizing data to be used by both technical and non-technical personnel. Advanced understanding of programming concepts, data management, and analytical techniques. Highly organized, motivated and diligent with significant background in Computer Science.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% HIGHLIGHTS %*%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Highlights}
+
+\begin{itemize}
+  \item \textbf{Proficient} in the major Cloud Providers and state-of-art data architetures;
+  \item Highly skilled in debugging and \textbf{tuning queries and applications};
+  \item Strong technical foundation, holder of \textbf{Bachelor Degree in Computer Science};
+  \item \textbf{Organized} professional with attention to details and care for high quality documentation;
+  \item \textbf{Passionate} about data-related subjects and eager to learn by doing.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% WORK EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+
+\input{experiences/8_de_northland.tex}
+\divider
+
+\input{experiences/7_de_bfa_industries.tex}
+\divider
+
+\input{experiences/6_sde_blueshift.tex}
+\divider
+
+\input{experiences/5_de_grupo_boticario.tex}
+\divider
+
+\input{experiences/4_de_dti_digital.tex}
+\divider
+
+\input{experiences/3_de_accenture.tex}
+\divider
+
+\input{experiences/2_se_delta_global.tex}
+
+\medskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% EDUCATION & EXTRACURRICULAR ACTIVITIES %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education \& Extracurricular Activities}
+
+
+\input{education/bsc_cs_ufla.tex}
+\divider
+
+\input{education/esl_sgic_vancouver.tex}
+\divider
+
+\input{education/je_emakersjr_ufla.tex}
+\divider
+
+\input{education/vp_troia_ufla.tex}
+
+\medskip
+
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Projects}
+
+\input{projects/something.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% CERTIFICATES %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Certificates}
+
+\input{certificates/snowpro_core_2024.tex}
+
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% LANGUAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Languages}
+
+\cvlanguage{Portuguese}{Native}
+
+\cvlanguage{English}{C2}
+
+\end{document}
